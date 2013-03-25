@@ -9,17 +9,17 @@
 
 /* ****************************************************
 
-	@file:		  style.css
-		@cescription: Screen stylesheet
-			@author:      remi (exomel.com)
-				@updated:	  20100114
+@file:		  style.css
+@cescription: Screen stylesheet
+@author:      remi (exomel.com)
+@updated:	  20100114
 
-					@notes:       You can use this stylesheet to create
-						              a custom Pubwich theme. You should
-									  				  duplicate the `themes/default/`
-													  				  directory, though, and then change
+@notes:       You can use this stylesheet to create
+a custom Pubwich theme. You should
+duplicate the `themes/default/`
+directory, though, and then change
 																	  				  the `PUBWICH_THEME` constant in your 
-																					  				  configuration file.
+configuration file.
 
 																									  ******************************************************/
 
@@ -179,13 +179,13 @@ h1, h2, h1 a, h2 a {
   ******************************************************************/
    
    .col1 {
-	   	width: 35%;
+	   	width: 45%;
 			margin-right: 2%;
 				float: left;
    }
 
    .col2 {
-	   	width: 35%;
+	   	width: 45%;
 			margin-right: 2%;
 				float: left;
    }
@@ -626,11 +626,42 @@ h1, h2, h1 a, h2 a {
 
 <div id='header'>
 <h1>Ciencia abierta en la nube: CANUBE</h1>
-  </div>
+</div>
 
-    <div id='about'>Espacio para breve explicación del proyecto</div>
-    <div id='twitter'>Espacio para widget Twitter</div>
-    <div id='enlaces'>Espacio para diferentes enlaces: GitHub, Facebook, Twitter, Blog</div>
-    <div id='logos'>Logos de empresas</div>
 
-</body> </html>
+    <div class="col1">
+	<div class='box text'>
+	<h2>Sobre el proyecto</h2>
+	<div class="boite-inner">
+	El proyecto Canube es un proyecto de Ciencia
+	Abierta correspondiente a la II Convocatoria de Proyectos del Campus de
+	Excelencia Internacional BioTIC de la Universidad de Granada.
+	</div>
+	</div>
+
+<a class="twitter-timeline" href="https://twitter.com/CanubeProject"
+data-widget-id="316210807560077312">Tweets by @CanubeProject</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<div class='col2'>
+	<div clas='box text'>	
+	<h2>Algunos enlaces </h2>
+	<div class="boite-inner">
+	<ul>
+	<li>Tenemos el <a href="http://github.com/canube">GitHub de
+	CanuBe</a></li>
+	<li>Puedes contactar con nosotros en
+	<a href="mailto:info@canu.be">info@canu.be</a></li>
+	</div>
+
+	<script type="text/javascript" src="http://output71.rssinclude.com/output?type=js&amp;id=663743&amp;hash=e65d0e9824d66ae03cf253955e3a076f"></script> 
+
+	    <div clas='box text'>
+		<h2>Logos</h2>
+	<div class="boite-inner">
+		</div>
+</div>
+
+
+</body> 
+</html>
