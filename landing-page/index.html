@@ -20,94 +20,94 @@
 a custom Pubwich theme. You should
 duplicate the `themes/default/`
 directory, though, and then change
-																	  				  the `PUBWICH_THEME` constant in your 
+		    the `PUBWICH_THEME` constant in your 
 configuration file.
 
-																									  ******************************************************/
+  ******************************************************/
 
-																									  /**
-																									   *	Reset
-																									    ******************************************************************/
+  /**
+   *	Reset
+    ******************************************************************/
 
-																										/* http://meyerweb.com/eric/tools/css/reset/ 
-																										   v2.0 | 20110126
-																										      License: none (public domain)
-																											  */
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	      License: none (public domain)
+		  */
 
-																											  html, body, div, span, applet, object, iframe,
-																											  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-																											  a, abbr, acronym, address, big, cite, code,
-																											  del, dfn, em, img, ins, kbd, q, s, samp,
-																											  small, strike, strong, sub, sup, tt, var,
-																											  b, u, i, center,
-																											  dl, dt, dd, ol, ul, li,
-																											  fieldset, form, label, legend,
-																											  table, caption, tbody, tfoot, thead, tr, th, td,
-																											  article, aside, canvas, details, embed, 
-																											  figure, figcaption, footer, header, hgroup, 
-																											  menu, nav, output, ruby, section, summary,
-																											  time, mark, audio, video {
-																												  	margin: 0;
-																														padding: 0;
-																															border: 0;
-																																font-size: 100%;
-																																	font: inherit;
-																																		vertical-align: baseline;
-																											  }
-																											  /* HTML5 display-role reset for older browsers */
-																											  article, aside, details, figcaption, figure, 
-																											  footer, header, hgroup, menu, nav, section {
-																												  	display: block;
-																											  }
-																											  body {
-																												  	line-height: 1;
-																											  }
-																											  ol, ul {
-																												  	list-style: none;
-																											  }
-																											  blockquote, q {
-																												  	quotes: none;
-																											  }
-																											  blockquote:before, blockquote:after,
-																											  q:before, q:after {
-																												  	content: '';
-																														content: none;
-																											  }
-																											  table {
-																												  	border-collapse: collapse;
-																														border-spacing: 0;
-																											  }
+		  html, body, div, span, applet, object, iframe,
+		  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		  a, abbr, acronym, address, big, cite, code,
+		  del, dfn, em, img, ins, kbd, q, s, samp,
+		  small, strike, strong, sub, sup, tt, var,
+		  b, u, i, center,
+		  dl, dt, dd, ol, ul, li,
+		  fieldset, form, label, legend,
+		  table, caption, tbody, tfoot, thead, tr, th, td,
+		  article, aside, canvas, details, embed, 
+		  figure, figcaption, footer, header, hgroup, 
+		  menu, nav, output, ruby, section, summary,
+		  time, mark, audio, video {
+  	margin: 0;
+padding: 0;
+	border: 0;
+		font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+		  }
+		  /* HTML5 display-role reset for older browsers */
+		  article, aside, details, figcaption, figure, 
+		  footer, header, hgroup, menu, nav, section {
+  	display: block;
+		  }
+		  body {
+  	line-height: 1;
+		  }
+		  ol, ul {
+  	list-style: none;
+		  }
+		  blockquote, q {
+  	quotes: none;
+		  }
+		  blockquote:before, blockquote:after,
+		  q:before, q:after {
+  	content: '';
+content: none;
+		  }
+		  table {
+  	border-collapse: collapse;
+border-spacing: 0;
+		  }
 
-																											  /**
-																											   *	Basic
-																											    ******************************************************************/
+		  /**
+		   *	Basic
+		    ******************************************************************/
 
-																												.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .clearfix {display: inline-block;}
-																												/* Hides from IE-mac \*/ * html .clearfix {height: 1%;} .clearfix {display: block;} /* End hide from IE-mac */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } .clearfix {display: inline-block;}
+/* Hides from IE-mac \*/ * html .clearfix {height: 1%;} .clearfix {display: block;} /* End hide from IE-mac */
 
-																												hr { display: none; } 
-																												a * { cursor: pointer; }
+hr { display: none; } 
+a * { cursor: pointer; }
 
-																												html {
-																														font-size: 100.01%;
-																												}
+html {
+font-size: 100.01%;
+}
 
-																												body {
-																														background: #f6f6f6;
-																														background-image:url("http://farm9.staticflickr.com/8367/8589385794_a3fa4ba307_o.jpg");
-																															color: #444;
-																																font-size: 100.01%;
-																																	line-height: 1.4;
-																																		font-family: 'Carme','Segoe UI', Helvetica, Arial, "Lucida Grande", "Liberation Sans", Tahoma, Verdana, sans-serif;
-																																						 /* Yay for Liberation! */
-																																						 	padding: 4.2em 2.8em 5.6em 2.8em;
-																												}
+body {
+background: #f6f6f6;
+background-image:url("http://farm9.staticflickr.com/8367/8589385794_a3fa4ba307_o.jpg");
+	color: #444;
+		font-size: 100.01%;
+line-height: 1.4;
+font-family: 'Carme','Segoe UI', Helvetica, Arial, "Lucida Grande", "Liberation Sans", Tahoma, Verdana, sans-serif;
+ /* Yay for Liberation! */
+ 	padding: 4.2em 2.8em 5.6em 2.8em;
+}
 
 #wrap {
 	font-size: 0.8em;
 	    width: auto;
-			max-width: 80em;
-				margin: 0 auto;
+max-width: 80em;
+margin: 0 auto;
 }
 
 #skip {
@@ -123,7 +123,7 @@ a:focus,
 a:hover,
 a:active {
 	        color: #000;
-			        text-decoration: none;
+        text-decoration: none;
 }
 
 h1 a, h2 a { text-decoration: none; }
@@ -138,25 +138,25 @@ acronym, abbr {
 h1 {
 		font-size: 3.5em;
 		    line-height: 1.14;
-				padding: 0;
-				    margin: 0 0 0.8em 0;
-						width: 70%;
-							text-shadow: 1px 1px 0 #fff;
-								letter-spacing: -0.02em;
+padding: 0;
+    margin: 0 0 0.8em 0;
+	width: 70%;
+		text-shadow: 1px 1px 0 #fff;
+letter-spacing: -0.02em;
 }
 
 h1, h2, h1 a, h2 a {
 		font-weight: bold;
-			text-align: left;
-				color: #3a414a;
+text-align: left;
+color: #3a414a;
 }
 
 
 
 .erreur {
 		background: #fff;
-			opacity: 0.2;
-				padding: 0.5em 1em;
+opacity: 0.2;
+padding: 0.5em 1em;
 }
 
 /**
@@ -167,13 +167,13 @@ h1, h2, h1 a, h2 a {
    	text-align: right;
 	    margin-top: 4.2em;
 		    border-top: dotted 1px #999;
-				padding: 2.8em 0;
+padding: 2.8em 0;
 }
 
 #footer a.pubwich {
 	background: url('./img/pubwichfork_16.png') no-repeat left center transparent;
 		white-space: nowrap;
-			padding-left: 18px;
+padding-left: 18px;
 }
 
 /**
@@ -182,19 +182,19 @@ h1, h2, h1 a, h2 a {
    
    .col1 {
 	   	width: 45%;
-			margin-right: 2%;
-				float: left;
+margin-right: 2%;
+float: left;
    }
 
    .col2 {
 	   	width: 45%;
-			margin-right: 2%;
-				float: left;
+margin-right: 2%;
+float: left;
    }
 
    .col3 {
 	   	width: 26%;
-			float: left;
+float: left;
    }
 
    /**
@@ -203,26 +203,26 @@ h1, h2, h1 a, h2 a {
 	  
 	  .box {
 		  	margin: 0 0 1.4em;
-				background: #f9f9f9;
-					box-shadow: 0 0 0.5em rgba( 0, 0, 0, 0.2 );
-						-moz-box-shadow: 0 0 0.5em rgba( 0, 0, 0, 0.2 );
-							-webkit-box-shadow: 0 0 0.5em rgba( 0, 0, 0, 0.2);
-							        border: solid 1px #ddd;
+background: #f9f9f9;
+box-shadow: 0 0 0.5em rgba( 0, 0, 0, 0.2 );
+	-moz-box-shadow: 0 0 0.5em rgba( 0, 0, 0, 0.2 );
+		-webkit-box-shadow: 0 0 0.5em rgba( 0, 0, 0, 0.2);
+		        border: solid 1px #ddd;
 	  }
 
 	  .box h2 {
 		  	font-size: 1.4em;
-				padding: 0.504em 0.7em 0.35em 0.7em;
-					line-height: 1;
-					        background: #f3f3f3;
-								border-bottom: 1px dotted #999;
+padding: 0.504em 0.7em 0.35em 0.7em;
+line-height: 1;
+        background: #f3f3f3;
+border-bottom: 1px dotted #999;
 	  }
 
 	  .box h2 span {
 		  	font-size: 0.714em;
-			        line-height: 1.4;
-						font-weight: normal;
-						        opacity: 1;
+        line-height: 1.4;
+	font-weight: normal;
+	        opacity: 1;
 	  }
 
 	  .box .boite-inner {
@@ -231,26 +231,26 @@ h1, h2, h1 a, h2 a {
 
 	  .box ul li {
 		  	margin: 0 0 0.7em 0;
-			        padding: 0 0 0.7em 0;
-					        border-bottom: dotted 1px #ddd;
-							        overflow: hidden;
+        padding: 0 0 0.7em 0;
+        border-bottom: dotted 1px #ddd;
+		        overflow: hidden;
 	  }
 
 	  .box ul > li:last-child {
 		      margin: 0;
-			      padding: 0;
-				      border: none;
+      padding: 0;
+      border: none;
 	  }
 
 	  .box .item-media-thumbnail
 	  {
 		      float: left;
-			      vertical-align: baseline;
-				      margin:0.25em 1em 0.35em 0;
-					      width: auto;
-						      height: auto;
-							      max-height: 7em;
-								      max-width: 25%;
+      vertical-align: baseline;
+      margin:0.25em 1em 0.35em 0;
+      width: auto;
+	      height: auto;
+		      max-height: 7em;
+      max-width: 25%;
 	  }
 
 	  .box.nodata {
@@ -271,12 +271,12 @@ h1, h2, h1 a, h2 a {
 
 		.text p, .text ul, .text ol
 		{
-			    margin-bottom: 0.75em;
+    margin-bottom: 0.75em;
 		}
 
 		.text .boite-inner > :last-child
 		{
-			    margin-bottom: 0;
+    margin-bottom: 0;
 		}
 
 		/**
@@ -284,343 +284,343 @@ h1, h2, h1 a, h2 a {
 		  ******************************************************************/
 
 		  .flickr h2 a {
-			  	color: #0063DC;
+  	color: #0063DC;
 		  }
 
 		  .flickr h2 em {
-			  	color: #FF0084;
-					font-style: normal;
+  	color: #FF0084;
+font-style: normal;
 		  }
 
 		  .flickr .boite-inner {
-			  	padding-right: 0.35em;
+  	padding-right: 0.35em;
 		  }
 
 		  .flickr ul li {
-			          padding:0;
-					          margin: 0;
-							  	float: left;
-								        width: 25%;
-										        border: none;
+          padding:0;
+          margin: 0;
+		  	float: left;
+        width: 25%;
+        border: none;
 		  }
 
 		  .flickr ul li a {
-			          display: block;
-					          margin: 0 0.35em 0.35em 0;
-							  	border: none;
+          display: block;
+          margin: 0 0.35em 0.35em 0;
+		  	border: none;
 		  }
 
 		  .flickr ul li img {
-			  	display: block;
-				        width: 100%;
-						        height: auto;
+  	display: block;
+        width: 100%;
+	        height: auto;
 		  }
 
 		  /**
 		   *	=! Last.fm
 		    ******************************************************************/
 
-			.lastfm h2 a {
-					color: #DC413A;
-			}
+.lastfm h2 a {
+color: #DC413A;
+}
 
-			.lastfmtopalbums li a strong,
-			.lastfmweeklyalbums li a strong {
-				    display: block;
-			}
+.lastfmtopalbums li a strong,
+.lastfmweeklyalbums li a strong {
+    display: block;
+}
 
-			/**
-			 *	=! Twitter
-			  ******************************************************************/
+/**
+ *	=! Twitter
+  ******************************************************************/
 
-			  .twitter h2 a {
-				  	color: #33CCFF;
-			  }
+  .twitter h2 a {
+  	color: #33CCFF;
+  }
 
-			  .twitter li {
-				  	padding: 5px 10px 7px;
-						margin: 0 0 5px;
-			  }
+  .twitter li {
+  	padding: 5px 10px 7px;
+	margin: 0 0 5px;
+  }
 
-			  .twitter li span.image, 
-			  .twitter li span.date {
-				  	display: block;
-						float: left;
-							width: 85px;
-								margin-right: 10px;
-			  }
+  .twitter li span.image, 
+  .twitter li span.date {
+  	display: block;
+	float: left;
+		width: 85px;
+margin-right: 10px;
+  }
 
-			  .twitter li span.image {
-				  	width: 48px;
-			  }
+  .twitter li span.image {
+  	width: 48px;
+  }
 
-			  .twitter li span.image a, 
-			  .twitter li span.date a {
-				  	text-decoration: none;
-						border: none;
-			  }
+  .twitter li span.image a, 
+  .twitter li span.date a {
+  	text-decoration: none;
+	border: none;
+  }
 
-			  .twitter li p {
-				  	display: block;
-						margin-left: 95px;
-			  }
+  .twitter li p {
+  	display: block;
+	margin-left: 95px;
+  }
 
-			  .twitter li em.from {
-				  	display: none;
-			  }
+  .twitter li em.from {
+  	display: none;
+  }
 
-			  .twittersearch li p {
-				  	margin-left: 65px;
-			  }
+  .twittersearch li p {
+  	margin-left: 65px;
+  }
 
-			  .twittersearch li p.date {
-				  	margin-top: 3px;
-						color: rgba(0,0,0,0.4);
-			  }
+  .twittersearch li p.date {
+  	margin-top: 3px;
+	color: rgba(0,0,0,0.4);
+  }
 
-			  .twittersearch li p.date a {
-				  	color: rgba(0,0,0,0.4);
-						border-bottom: none;
-			  }
+  .twittersearch li p.date a {
+  	color: rgba(0,0,0,0.4);
+	border-bottom: none;
+  }
 
-			  /**
-			   *	=! StatusNet
-			    ******************************************************************/
+  /**
+   *	=! StatusNet
+    ******************************************************************/
 
-				.statusnet h2 a {
-						color: #33CCFF;
-				}
+.statusnet h2 a {
+	color: #33CCFF;
+}
 
-				.statusnet li {
-						padding: 5px 10px 7px;
-							margin: 0 0 5px;
-				}
+.statusnet li {
+	padding: 5px 10px 7px;
+		margin: 0 0 5px;
+}
 
-				.statusnet li span.image, 
-				.statusnet li span.date {
-						display: block;
-							float: left;
-								width: 85px;
-									margin-right: 10px;
-				}
+.statusnet li span.image, 
+.statusnet li span.date {
+	display: block;
+		float: left;
+width: 85px;
+margin-right: 10px;
+}
 
-				.statusnet li span.image {
-						width: 48px;
-				}
+.statusnet li span.image {
+	width: 48px;
+}
 
-				.statusnet li span.image a, 
-				.statusnet li span.date a {
-						text-decoration: none;
-							border: none;
-				}
+.statusnet li span.image a, 
+.statusnet li span.date a {
+	text-decoration: none;
+		border: none;
+}
 
-				.statusnet li p {
-						display: block;
-							margin-left: 95px;
-				}
+.statusnet li p {
+	display: block;
+		margin-left: 95px;
+}
 
-				.statusnet li em.from {
-						display: none;
-				}
+.statusnet li em.from {
+	display: none;
+}
 
-				.statusnetsearch li p {
-						margin-left: 65px;
-				}
+.statusnetsearch li p {
+	margin-left: 65px;
+}
 
-				.statusnetsearch li p.date {
-						margin-top: 3px;
-							color: rgba(0,0,0,0.4);
-				}
+.statusnetsearch li p.date {
+	margin-top: 3px;
+		color: rgba(0,0,0,0.4);
+}
 
-				.statusnetsearch li p.date a {
-						color: rgba(0,0,0,0.4);
-							border-bottom: none;
-				}
+.statusnetsearch li p.date a {
+	color: rgba(0,0,0,0.4);
+		border-bottom: none;
+}
 
-				/**
-				 *	=! Delicious
-				  ******************************************************************/
+/**
+ *	=! Delicious
+  ******************************************************************/
 
-				  .delicious h2 a {
-					  	color: #3274D0;	
-				  }
+  .delicious h2 a {
+  	color: #3274D0;	
+  }
 
-				  /**
-				   *	=! Readernaut
-				    ******************************************************************/
+  /**
+   *	=! Readernaut
+    ******************************************************************/
 
-					.readernaut h2 a {
-							color: #B6C125;
-					}
+.readernaut h2 a {
+		color: #B6C125;
+}
 
-					.readernaut ul {
-							padding-top: 5px;
-					}
-					 
-					 .readernaut li {
-						 	float: left;
-								width: 100%;
-					 }
+.readernaut ul {
+		padding-top: 5px;
+}
+ 
+ .readernaut li {
+	 	float: left;
+width: 100%;
+ }
 
-					 .readernaut li a {
-						 	text-decoration: none;
-								border: none;
-									display: block;
-										padding: 5px 0 5px 5px;
-					 }
+ .readernaut li a {
+	 	text-decoration: none;
+border: none;
+display: block;
+padding: 5px 0 5px 5px;
+ }
 
-					 .readernaut li img {
-						 	display: block;
-								float: left;
-					 }
+ .readernaut li img {
+	 	display: block;
+float: left;
+ }
 
-					 .readernaut li a strong {
-						 	display: block;
-								margin-left: 55px;
-									font-weight: normal;
-										padding: 8px 10px 8px 10px;
-					 }
+ .readernaut li a strong {
+	 	display: block;
+margin-left: 55px;
+font-weight: normal;
+padding: 8px 10px 8px 10px;
+ }
 
-					 .readernaut li a span {
-						 	display: block;
-								font-weight: bold;
-									line-height: 1.2;
-					 }
+ .readernaut li a span {
+	 	display: block;
+font-weight: bold;
+line-height: 1.2;
+ }
 
 
-					 /**
-					  *	=! Facebook
-					   ******************************************************************/
+ /**
+  *	=! Facebook
+   ******************************************************************/
 
-					   .facebook h2 a {
-						   	color: #3B5998;
-					   }
+   .facebook h2 a {
+	   	color: #3B5998;
+   }
 
-					   .facebook ul li {
-						   	padding: 5px;
-					   }
+   .facebook ul li {
+	   	padding: 5px;
+   }
 
-					   /**
-					    *	=! Youtube
-						 ******************************************************************/
+   /**
+    *	=! Youtube
+	 ******************************************************************/
 
-						 .youtube h2 a {
-							 	color: #D62323;
-						 }
+	 .youtube h2 a {
+		 	color: #D62323;
+	 }
 
-						 /**
-						  *	=! Vimeo
-						   ******************************************************************/
+	 /**
+	  *	=! Vimeo
+	   ******************************************************************/
 
-						   .vimeo h2 a {
-							   	color: #9FC54E;
-						   }
+	   .vimeo h2 a {
+		   	color: #9FC54E;
+	   }
 
-						   /**
-						    *	=! Gowalla
-							 ******************************************************************/
+	   /**
+	    *	=! Gowalla
+		 ******************************************************************/
 
-							 .gowalla h2 a {
-								 	color: #FF4400;
-							 }
+		 .gowalla h2 a {
+ 	color: #FF4400;
+		 }
 
-							 .gowalla .boite-inner {
-								 	padding: 10px 8px 2px;
-							 }
+		 .gowalla .boite-inner {
+ 	padding: 10px 8px 2px;
+		 }
 
-							 .gowalla .boite-inner a {
-								 	border: none;
-							 }
+		 .gowalla .boite-inner a {
+ 	border: none;
+		 }
 
-							 .gowalla .boite-inner a img {
-								 	float: left;
-										margin: 7px 0 0 5px;
-											-ms-interpolation-mode:bicubic; /* propriété propriétaire (!) d'IE7 */
-							 }
+		 .gowalla .boite-inner a img {
+ 	float: left;
+margin: 7px 0 0 5px;
+	-ms-interpolation-mode:bicubic; /* propriété propriétaire (!) d'IE7 */
+		 }
 
-							 .gowalla .boite-inner a strong {
-								 	display: block;
-										margin: 0 0 0 36px;
-							 }
+		 .gowalla .boite-inner a strong {
+ 	display: block;
+margin: 0 0 0 36px;
+		 }
 
-							 .gowalla .boite-inner small {
-								 	display: block;
-										margin: 0 0 0 36px;
-											color: rgba(0,0,0,0.5);
-							 }
+		 .gowalla .boite-inner small {
+ 	display: block;
+margin: 0 0 0 36px;
+	color: rgba(0,0,0,0.5);
+		 }
 
-							 .gowalla .boite-inner li {
-								 	margin: 0 0 0.9em;
-							 }
+		 .gowalla .boite-inner li {
+ 	margin: 0 0 0.9em;
+		 }
 
-							 /**
-							  *	=! Simple Layout for smaller Devices (or big font sizes)
-							   ******************************************************************/
+		 /**
+		  *	=! Simple Layout for smaller Devices (or big font sizes)
+		   ******************************************************************/
 
-							   @media screen and (max-width: 50em)
-							   {
+		   @media screen and (max-width: 50em)
+		   {
 
-								       .col1, .col2 {
-										           width: 49%;
-												           margin: 0;
-														       }
-															       
-																       .col2 {
-																		           float: right;
-																				       }
+       .col1, .col2 {
+           width: 49%;
+		           margin: 0;
+       }
+       
+	       .col2 {
+           float: right;
+       }
 
-																					       .col3 {
-																							           float: none;
-																									           clear: both;
-																											           width: auto;
-																													       }
+	       .col3 {
+           float: none;
+           clear: both;
+		           width: auto;
+       }
 
-							   }
+		   }
 
-							   @media screen and (max-width: 33em)
-							   {
-								       body {
-										   	    font-size: 1em;
-													    padding: 1em;
-														    }
+		   @media screen and (max-width: 33em)
+		   {
+       body {
+   	    font-size: 1em;
+    padding: 1em;
+    }
 
-															    #wrap {
-																		    font-size: 0.9em;
-																				    max-width: none;
-																					        min-width: 0;
-																							    }
+    #wrap {
+    font-size: 0.9em;
+    max-width: none;
+	        min-width: 0;
+    }
 
-																								    h1 {
-																											    font-size: 2em;
-																												        line-height: 1;
-																															    padding: 0;
-																																        margin: 0.25em 0 0.75em 0;
-																																			    width: 100%;
-																																					    text-align: center;
-																																						    }
-																																							    
-																																								    .box h2 {
-																																										        font-size: 1.111em;
-																																												    }
+    h1 {
+		    font-size: 2em;
+        line-height: 1;
+	    padding: 0;
+		        margin: 0.25em 0 0.75em 0;
+    width: 100%;
+		    text-align: center;
+    }
+    
+    .box h2 {
+		        font-size: 1.111em;
+    }
 
-																																													    .box h2 span {
-																																															        font-size: 0.8em;
-																																																	    }
+    .box h2 span {
+		        font-size: 0.8em;
+    }
 
-																																																		    #footer {
-																																																					    text-align: center;
-																																																						        margin-top: 2em;
-																																																								        border-top: dotted 1px #999;
-																																																											    padding: 1em 0;
-																																																												    }
+    #footer {
+    text-align: center;
+        margin-top: 2em;
+	        border-top: dotted 1px #999;
+    padding: 1em 0;
+    }
 
-																																																													    .col1, .col2, .col3 {
-																																																																    width: auto;
-																																																																		    float: none;
-																																																																				    margin: 0;
-																																																																					    }
+	    .col1, .col2, .col3 {
+    width: auto;
+	    float: none;
+    margin: 0;
+    }
 
-							   }
+		   }
 </style>
 </head>
 
@@ -657,7 +657,8 @@ data-widget-id="316210807560077312">Tweets by @CanubeProject</a>
 	<a href="mailto:info@canu.be">info@canu.be</a></li>
 	</div>
 
-	<script type="text/javascript" src="http://output71.rssinclude.com/output?type=js&amp;id=663743&amp;hash=e65d0e9824d66ae03cf253955e3a076f"></script> 
+<script src='https://feedgrabbr.com/widget/fgwidget.js'></script>
+<div class="feedgrabbr_widget" fgid="873bc4baf6bf68703f342b164"></div>
 
 	    <div clas='box text'>
 		<h2>Logos</h2>
